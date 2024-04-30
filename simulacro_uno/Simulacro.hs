@@ -1,5 +1,4 @@
 module Simulacro where
-import GHC.IO.Device (IODeviceType(Stream))
 
 
 validacionDual :: (String, String) -> (String, String) -> Bool

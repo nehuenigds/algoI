@@ -9,7 +9,7 @@ test1 = test [
     "validas de 1 elemento" ~: relacionesValidas validas1 ~?= True,
     "validas de n elementos" ~: relacionesValidas validas2 ~?= True
     ]
-    
+
 test2 = test [
     "vacio" ~: personas [] ~?= [],
     "personas 1 elemento" ~:  sonIguales_hunit (personas validas1) ["X", "Z"] ~?= True, -- en algun orden
