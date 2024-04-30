@@ -32,6 +32,7 @@ test4 = test [
     ]
 
 
+
 --Formulas
 quitar_hunit :: (Eq t) => t -> [t] -> [t]
 quitar_hunit x (y:ys) | x == y = ys
